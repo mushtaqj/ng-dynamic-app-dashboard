@@ -17,7 +17,27 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lib-widgets-provider": [
+        "dist/lib-widgets-provider"
+      ],
+      "lib-widgets-provider/*": [
+        "dist/lib-widgets-provider/*"
+      ],
+      "lib-widget-medication": [
+        "dist/lib-widget-medication"
+      ],
+      "lib-widget-medication/*": [
+        "dist/lib-widget-medication/*"
+      ],
+      "lib-widget-clinicalparameters": [
+        "dist/lib-widget-clinicalparameters"
+      ],
+      "lib-widget-clinicalparameters/*": [
+        "dist/lib-widget-clinicalparameters/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

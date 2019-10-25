@@ -1,0 +1,15 @@
+.dashboard{
+  display: grid;
+  border: 2px darkslategrey dot-dash;
+  padding:20px;
+  grid-template-columns: auto auto;
+}
+
+.widget{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin : 20px
+}
